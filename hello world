@@ -1,1 +1,28 @@
-=.=`12
+Nature language processing
+
+joe's cat's name is Mr.zhu
+joe has a cat
+cat's name
+the cat sex is male
+
+
+
+
+Bob and Mary are taking a trip to France in June of the year
+Taking a trip
+destination
+when
+
+
+
+relation extraction
+person, works for, Org
+person, knows, person
+person, learns, skill
+
+SVO
+Part of speech tagging
+POS tagging
+Dependency relations
+NLTK python
+spacy
