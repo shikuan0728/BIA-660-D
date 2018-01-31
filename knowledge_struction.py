@@ -1,7 +1,7 @@
-infile = open('chatbot_data','r')
+infile = open('chatbot_data.txt','r')
 
 outfile = open('output.txt','w')
 
 file_text = infile.read()
 
-print()
+print(file_text)
