@@ -25,3 +25,4 @@ class Person(object):
         self.dislikes = [] if dislikes is None else dislikes
         self.has = [] if has is None else has
         self.travels = [] if travels is None else travels
+        all()
