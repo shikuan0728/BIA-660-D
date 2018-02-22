@@ -213,10 +213,7 @@ def process_relation_triplet(triplet):
                 s_person.has.append(pet)
 
 def preprocess_question(question):
-
-
     q_words = question.split(' ')
-
 
     for article in ('a', 'an', 'the'):
         try:
@@ -250,7 +247,6 @@ def answer_questions(string):
 
     if q_trip.subject.lower() == 'who' and q_trip.object == 'dog':
         answer = '{} has a dog.'
-
         for person in persons:
             pet = get_persons_pet(person.name)
             if pet and pet.type == 'dog':
@@ -260,7 +256,6 @@ def answer_questions(string):
 
     if q_trip.subject.lower() == 'who' and q_trip.object == 'cat':
         answer = '{} has a cat.'
-
         for person in persons:
             pet = get_persons_pet(person.name)
             if pet and pet.type == 'cat':
@@ -276,3 +271,5 @@ def main():
 
     for t in triples:
         r = process_relation_triplet(t)
+
+    # Sorry I don't know how to the rest and things I missed above....
