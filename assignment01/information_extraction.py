@@ -269,7 +269,6 @@ def main():
 
     triples = cl.extract_triples(sents)
 
-    for t in triples:
-        r = process_relation_triplet(t)
+
 
     # Sorry I don't know how to the rest and things I missed above....
