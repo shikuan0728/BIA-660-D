@@ -86,6 +86,8 @@ first_inning_2015 = extract_stats_data(data_html)
 AL = first_inning_2015[first_inning_2015["League"]=="AL"]['HR'].astype('int64').mean()
 NL = first_inning_2015[first_inning_2015["League"]=="NL"]['HR'].astype('int64').mean()
 if AL>NL:
-    print("AL is higher. Its average number of homeruns is", AL)
+    print("AL League higher for average number of homeruns be", AL)
 else:
-    print("NL is higher,Its average number of homerun is", NL)
+    print("NL League higher for average number of homeruns be", NL)
+#AL League higher for average number of homeruns be 25.375
+
