@@ -42,4 +42,3 @@ def extract_stats_data(driver):
     pass
 
 team_hr_stats = wait.until(EC.visibility_of_element_located((By.ID, 'datagrid')))
-
