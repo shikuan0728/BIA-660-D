@@ -31,4 +31,4 @@ def extract_stats_data(driver):
     data_div = driver.find_element_by_id('datagrid')
     data_html = data_div.get_attribute('innerHTML')
     soup = bs4.BeasutifulSoup(data_html, "html5lib")
-    season_select
+
